@@ -2,7 +2,7 @@ FROM tomcat:8.0-alpine
 
 LABEL maintainer="Nidhi Gupta"
 
-ADD ./target/LoginWebApp-1.war /usr/local/tomcat/webapps/
+ADD .target/BloodV2-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
