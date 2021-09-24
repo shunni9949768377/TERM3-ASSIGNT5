@@ -10,7 +10,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'https://github.com/shunni9949768377/blb-tomcat.git'
+                git branch: 'master', url: 'https://github.com/shunni9949768377/TERM3-ASSIGNT5.git'
              
           }
         }
